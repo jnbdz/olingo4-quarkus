@@ -1,0 +1,9 @@
+name: olingo4-quarkus-codestart
+ref: olingo4-quarkus
+type: code
+tags: extension-codestart
+metadata:
+  title: Olingo4 Quarkus
+  description: Start coding with Olingo4 Quarkus
+#  path: /some-path
+#  related-guide-section: TBD

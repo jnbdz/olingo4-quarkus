@@ -1,0 +1,2 @@
+Olingo4 Quarkus
+Copyright 2025 Jean-Nicolas Boulay Desjardins

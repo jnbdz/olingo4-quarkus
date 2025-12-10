@@ -1,0 +1,94 @@
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# Plugin directory
+/.quarkus/cli/plugins/
+# TLS Certificates
+.certs/
+
+# Custom
+*~
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+.uuid
+
+.extra
+.gitconfig
+.gnupg
+!.gnupg/gpg*.conf
+.irssi/away.log
+.irssi/config*
+.irssi/nicknames_whitelist
+.irssi/otr
+.irssi/saved_colors
+.irssi/scripts/autorun/blocker.pl
+.irssi/startup
+.rainbow_oauth
+.nginx/conf.d/*
+
+Icon?
+.svn
+.AppleDouble
+._*
+
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# KDE directory preferences
+.directory
+
+# IDEs
+.idea/
