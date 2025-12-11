@@ -1,0 +1,13 @@
+{
+  "platforms" : [ {
+    "platform-key" : "io.quarkus",
+    "streams" : [ {
+      "id" : "3.30.2",
+      "releases" : [ {
+        "version" : "3.30.2",
+        "member-boms" : [ "io.quarkus:quarkus-bom::pom:3.30.2" ],
+        "quarkus-core-version" : "3.30.2"
+      } ]
+    } ]
+  } ]
+}

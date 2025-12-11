@@ -1,6 +1,19 @@
 ---
 name: "Olingo4 Quarkus"
+description: "Expose Apache Olingo OData 4.0 services on Quarkus with GraalVM native-image\
+  \ support."
 metadata:
+  keywords:
+  - "olingo"
+  - "odata"
+  - "odata4"
+  - "rest"
+  - "quarkus-extension"
+  guide: "https://github.com/jnbdz/olingo4-quarkus"
+  categories:
+  - "integration"
+  - "data"
+  status: "experimental"
   codestart:
     name: "olingo4-quarkus"
     languages:
@@ -12,4 +25,15 @@ metadata:
   extension-dependencies:
   - "io.quarkus:quarkus-arc"
   - "io.quarkus:quarkus-core"
+  - "io.quarkus:quarkus-rest"
+  - "io.quarkus:quarkus-rest-common"
+  - "io.quarkus:quarkus-mutiny"
+  - "io.quarkus:quarkus-smallrye-context-propagation"
+  - "io.quarkus:quarkus-vertx"
+  - "io.quarkus:quarkus-netty"
+  - "io.quarkus:quarkus-vertx-http"
+  - "io.quarkus:quarkus-tls-registry"
+  - "io.quarkus:quarkus-jsonp"
+  - "io.quarkus:quarkus-virtual-threads"
+  - "io.quarkus:quarkus-undertow"
 artifact: "com.sitenetsoft:olingo4-quarkus::jar:1.0.0-SNAPSHOT"

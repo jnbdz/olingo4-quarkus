@@ -1,0 +1,6 @@
+---
+registries:
+- test.quarkus.registry:
+    enable-maven-resolver: true
+    test-local-maven-repo: "/home/jn/Projects/SiteNetSoft/olingo4-quarkus/olingo4-quarkus/integration-tests/target/.quarkus/maven-repo"
+    client-factory-url: "file:/home/jn/.m2/repository/io/quarkus/quarkus-devtools-testing/3.30.2/quarkus-devtools-testing-3.30.2.jar"

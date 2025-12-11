@@ -1,12 +1,17 @@
-name: Olingo4 Quarkus
-#description: Do something useful.
+name: "Olingo4 Quarkus"
+description: "Expose Apache Olingo OData 4.0 services on Quarkus with GraalVM native-image support."
 metadata:
-#  keywords:
-#    - olingo4-quarkus
-#  guide: ... # To create and publish this guide, see https://github.com/quarkiverse/quarkiverse/wiki#documenting-your-extension
-#  categories:
-#    - "miscellaneous"
-#  status: "preview"
+  keywords:
+    - olingo
+    - odata
+    - odata4
+    - rest
+    - quarkus-extension
+  guide: "https://github.com/jnbdz/olingo4-quarkus"  # you can change this later if you add docs
+  categories:
+    - "integration"
+    - "data"
+  status: "experimental"
   codestart:
     name: olingo4-quarkus
     languages:

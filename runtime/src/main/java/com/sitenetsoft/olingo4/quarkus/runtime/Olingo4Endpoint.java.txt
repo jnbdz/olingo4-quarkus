@@ -1,0 +1,58 @@
+package com.sitenetsoft.olingo4.quarkus.runtime;
+
+import jakarta.inject.Inject;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.Context;
+
+import org.apache.olingo.server.api.ODataHttpHandler;
+
+@Path("/odata")
+public class Olingo4Endpoint {
+
+    @Inject
+    Olingo4Engine engine;
+
+    @Context
+    HttpServletRequest request;
+
+    @Context
+    HttpServletResponse response;
+
+    @GET
+    @Path("{any: .*}")
+    public void handleGet() {
+        handle();
+    }
+
+    @POST
+    @Path("{any: .*}")
+    public void handlePost(String body) {
+        handle();
+    }
+
+    @PUT
+    @Path("{any: .*}")
+    public void handlePut(String body) {
+        handle();
+    }
+
+    @PATCH
+    @Path("{any: .*}")
+    public void handlePatch(String body) {
+        handle();
+    }
+
+    @DELETE
+    @Path("{any: .*}")
+    public void handleDelete() {
+        handle();
+    }
+
+    private void handle() {
+        ODataHttpHandler handler = engine.handler();
+        // Let Olingo inspect request/response directly
+        handler.process(request, response);
+    }
+}
